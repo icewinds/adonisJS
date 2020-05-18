@@ -1,9 +1,8 @@
-# Adonis 4.0 Blog
+# Adonis CRUD Example
 
-This is a simple CRUD app using AdonisJS 4.0
+This is a simple CRUD app using AdonisJS v4.0 and MySQL
 
 ## Usage
-
 Install dependencies
 
 ```bash
@@ -21,14 +20,17 @@ Run the following command to run startup migrations.
 adonis migration:run
 ```
 
-### Run Server (nodemon suggested)
+### Run Server (Production)
 
 ```bash
 adonis serve
 ```
-
-or
+### Run Server (Development)
 
 ```bash
-nodemon server.js
-```"# adonis-crud" 
+adonis serve --dev
+```
+
+### Original Author
+
+https://github.com/naimeshvaja/adonis-crud
